@@ -1,0 +1,316 @@
+body {
+  margin: 0%;
+  /* height: 100vh; */
+  /* background: linear-gradient(to bottom, #3366cc 0%, #3399ff 100%); */
+  /* background: linear-gradient(to bottom, #3366cc 0%, #3399ff 100%); */
+  background-color: #3366cc;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* toast */
+.my-actions {
+  margin: 0 2em;
+}
+.order-1 {
+  order: 1;
+}
+.order-2 {
+  order: 2;
+}
+.order-3 {
+  order: 3;
+}
+
+.right-gap {
+  margin-right: auto;
+}
+/* toast */
+.colored-toast.swal2-icon-success {
+  background-color: #b7ec98 !important;
+}
+
+.colored-toast.swal2-icon-error {
+  background-color: #f27474 !important;
+}
+
+.colored-toast.swal2-icon-warning {
+  background-color: #ee893c !important;
+}
+
+.colored-toast.swal2-icon-info {
+  background-color: #3fc3ee !important;
+}
+
+.colored-toast.swal2-icon-question {
+  background-color: #87adbd !important;
+}
+
+.colored-toast .swal2-title {
+  color: rgb(0, 0, 0);
+}
+
+.colored-toast .swal2-close {
+  color: white;
+}
+
+.colored-toast .swal2-html-container {
+  color: white;
+}
+
+.title_section {
+  background: linear-gradient(to bottom, #3366cc 0%, #3399ff 100%);
+  padding-top: 30px;
+  color: white;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif, Cochin, Georgia, Times, "Times New Roman",
+    serif, Times, serif, "Arial Narrow", Arial, sans-serif;
+}
+.body_section {
+  display: flex;
+  /* border: 1px solid red; */
+  background: linear-gradient(to top, #3366cc 0%, #3399ff 100%);
+  margin: 5px;
+  justify-content: end;
+  height: max-content;
+}
+
+.buttons {
+  display: flex;
+  width: 200px;
+  /* border: 1px solid red; */
+  justify-content: space-around;
+}
+.modal-dialog {
+  width: 50vh;
+}
+
+.modal-header {
+  background: linear-gradient(to bottom, #3366cc 0%, #3399ff 100%);
+}
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background: linear-gradient(to bottom, #3366cc 0%, #3399ff 100%); */
+  background: #3399ff;
+}
+.modal-footer {
+  background: linear-gradient(to top, #3366cc 0%, #3399ff 100%);
+}
+.modal-body label {
+  font-weight: bold;
+  margin: 5px 0px;
+}
+.modal-body button {
+  width: 30%;
+  align-items: center;
+}
+.modal-body .form-group {
+  width: 80%;
+}
+.search_header {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+}
+.search_header h1 {
+  font-weight: bold;
+}
+.search_items_1 {
+  height: 78vh;
+}
+.search_items {
+  width: 100%;
+  /* height: ; */
+  min-height: max-content;
+  /* height: 100vh; */
+  /* border: 1px solid red; */
+}
+.search_images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 45vh;
+  /* background: linear-gradient(to bottom, #3366cc 0%, #3399ff 100%); */
+}
+.search_images img {
+  height: 100px;
+  width: 100px;
+  margin: 3rem;
+  cursor: pointer;
+}
+.footer_section {
+  /* height: 4rem; */
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to bottom, #3366cc 0%, #3399ff 100%);
+  /* margin-top: 180px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* second page css  */
+body {
+  margin: 0%;
+  /* height: 100vh; */
+  background: linear-gradient(to bottom, #3366cc 0%, #3399ff 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.entry_page {
+  height: 90vh;
+}
+.entry_section {
+  /* height: 81vh; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background: linear-gradient(to bottom, #3366cc 0%, #3399ff 100%); */
+}
+.entry_section label {
+  margin: 10px 0px;
+  font-weight: bold;
+}
+.entry_section span {
+  color: red;
+}
+.footer_section {
+  /* height: 4rem; */
+  background: linear-gradient(to bottom, #3366cc 0%, #3399ff 100%);
+  /* margin-top: 180px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* listpage css */
+.full-body {
+  padding: 30px;
+  width: 100%;
+  background: linear-gradient(to top, #336699 0%, #0066cc 100%);
+}
+.full-body h1 {
+  margin-left: 400px;
+  color: white;
+  font-size: 60px;
+}
+
+/* .button_group {
+  background-color: #0066cc;
+} */
+.btn-group button {
+  border-radius: 50px;
+}
+
+.device {
+  /* padding: 1px; */
+  height: max-content;
+  /* background: linear-gradient(to bottom, #336699 0%, #0066cc 100%); */
+}
+.table_section {
+  min-height: 70vh;
+}
+.device h4 {
+  margin-left: 700px;
+  color: white;
+}
+th {
+  color: white;
+  font-size: 15px;
+}
+td {
+  color: white;
+}
+.cont {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%; */
+  background: #3399ff;
+  /* background: linear-gradient(to top, #0066ff 0%, #0066ff 100%); */
+}
+
+.full-body {
+  padding: 30px;
+  width: 100%;
+  background: linear-gradient(to bottom, #336699 0%, #0066cc 100%);
+}
+.full-body h1 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+.topic {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  background: linear-gradient(to top, #336699 0%, #0066cc 100%);
+
+  border-radius: 18px;
+}
+.topic h2 {
+  color: white;
+  text-align: center;
+}
+.image {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+.content {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.3rem;
+  align-items: center;
+  padding: 0rem;
+  margin-top: 15px;
+  margin-left: 15px;
+  background-color: #0066cc91;
+  border-radius: 25px;
+  /* background: linear-gradient(to bottom, #336699 0%, #0066cc 100%) ; */
+}
+.item_name {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 10px;
+  width: 30vw;
+  margin-bottom: 0px;
+  /* margin-left: 3rem; */
+  /* margin-left: 50px; */
+}
+.item_des {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  width: 30vw;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.button {
+  margin-top: 15px;
+  padding: 40px;
+}
+.btn btn-primary {
+  padding: 15px 32px;
+}
+
+.label_heading {
+  font-size: larger;
+}
+.add_hardware_btn {
+  height: 5vh;
+}
+.btn_entry_home {
+  width: 8vw;
+  margin-left: 20px;
+}
