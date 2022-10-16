@@ -48,7 +48,7 @@ function ListPage() {
   let [click, setClick] = useState(false);
 
   let filterOperation = async () => {
-    let URL = "http://127.0.0.1:8080/api/filter/";
+    let URL = "https://my-hardware-prj.herokuapp.com/api/filter/";
     setClick(false);
     // let filter = { itemCode: item_code };
     let filter = { itemCode: item_code };
@@ -64,7 +64,7 @@ function ListPage() {
   };
 
   let deleteData = async (id) => {
-    await axios.delete("http://127.0.0.1:8080/api/" + id);
+    await axios.delete("https://my-hardware-prj.herokuapp.com/api/" + id);
   };
 
   let deleteItem = async (id) => {
@@ -101,7 +101,7 @@ function ListPage() {
   let clickOperation = async (itemName) => {
     setClick(true);
     try {
-      let { data } = await axios.get("http://127.0.0.1:8080/api/get-list");
+      let { data } = await axios.get("https://my-hardware-prj.herokuapp.com/api/get-list");
       if (data.status === true) {
         setSortList(
           [...data.result].filter((ele) => {

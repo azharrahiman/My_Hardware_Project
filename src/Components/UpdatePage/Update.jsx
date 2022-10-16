@@ -29,7 +29,7 @@ function Update() {
   // let data;
   let getDispList = async () => {
     try {
-      let { data } = await axios.get("http://127.0.0.1:8080/api/get/" + hw_id);
+      let { data } = await axios.get("https://my-hardware-prj.herokuapp.com/api/get/" + hw_id);
       if (data.status === true) {
         setDispList([...data.result]);
       } else {
@@ -178,7 +178,7 @@ function Update() {
 
       // console.log(inData);
       let { data } = await axios.put(
-        "http://127.0.0.1:8080/api/hardware-update/" + hw_id,
+        "https://my-hardware-prj.herokuapp.com/api/hardware-update/" + hw_id,
         inData
       );
       // console.log(data);

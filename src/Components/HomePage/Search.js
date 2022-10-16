@@ -23,7 +23,7 @@ function Search() {
   };
   let getListData = async () => {
     try {
-      let dataFromDb = await axios.get("http://127.0.0.1:8080/api/get-list");
+      let dataFromDb = await axios.get("https://my-hardware-prj.herokuapp.com/api/get-list");
       let data = dataFromDb.data;
       if (data.status === true) {
         setAllList([...data.result]); //recreate array

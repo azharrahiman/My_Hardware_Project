@@ -16,7 +16,7 @@ function DisplayPage() {
   let [displayList, setDisplayList] = useState([]);
   let getDisplayList = async () => {
     try {
-      let { data } = await axios.get("http://127.0.0.1:8080/api/get/" + hw_id);
+      let { data } = await axios.get("https://my-hardware-prj.herokuapp.com/api/get/" + hw_id);
 
       if (data.status === true) {
         setDisplayList([...data.result]);

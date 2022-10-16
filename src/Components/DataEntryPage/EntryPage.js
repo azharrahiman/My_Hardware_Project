@@ -134,7 +134,7 @@ function EntryPage() {
       });
     } else {
       let { data } = await axios.post(
-        "http://127.0.0.1:8080/api/hardware-entry",
+        "https://my-hardware-prj.herokuapp.com/api/hardware-entry",
         inputData
       );
       // console.log(data);

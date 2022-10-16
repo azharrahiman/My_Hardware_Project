@@ -110,7 +110,7 @@ function SignUp() {
       if (authCode.code === "et") {
         // console.log(signUp);
         let { data } = await axios.post(
-          "http://127.0.0.1:8080/api/signup",
+          "https://my-hardware-prj.herokuapp.com/api/signup",
           signUp
         );
         // console.log(data);
